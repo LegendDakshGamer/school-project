@@ -28,7 +28,7 @@ Text Provided:
 "{text_input}"
 
 Task:
-- Generate exactly 2 non-repeated conceptual questions based on the text.
+- Generate exactly 10 non-repeated conceptual questions based on the text.
 - Questions must match the difficulty level: "{difficulty}".
 - Format output ONLY using the JSON example below.
 
@@ -73,3 +73,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
